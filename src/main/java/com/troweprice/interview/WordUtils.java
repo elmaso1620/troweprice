@@ -4,6 +4,12 @@ import java.util.*;
 
 public class WordUtils {
 
+    /**
+     * Returns a collection of the longest words found in the given sentence String.
+     *
+     * @param sentence the sentence from which the longest word(s) should be returned
+     * @return a unique set of the longest words in the sentence
+     */
     public Set<Word> findLongestWords(String sentence) {
         Objects.requireNonNull(sentence);
 
@@ -25,10 +31,15 @@ public class WordUtils {
                 }
             }
         }
-
         return longestWords;
     }
 
+    /**
+     * Returns a collection of the shortest words found in the given sentence String.
+     *
+     * @param sentence the sentence from which the shortest word(s) are returned
+     * @return a unique set of the shortest words in the sentence
+     */
     public Set<Word> findShortestWords(String sentence) {
         Objects.requireNonNull(sentence);
 
@@ -50,7 +61,6 @@ public class WordUtils {
                 }
             }
         }
-
         return shortestWords;
     }
 
