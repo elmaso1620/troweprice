@@ -50,6 +50,15 @@ public class WordUtilsTest {
         assertTrue(((Word)(longestWords.toArray()[0])).getLength() == 5);
     }
 
+    @Test
+    public void testFindLongestWordsUniqueness() {
+        Set<Word> longestWords = wordUtils.findLongestWords("The e.g with lots of the same longest Longest LONGEST lonest words.");
+
+        assertTrue(longestWords.size() == 3);
+        assertTrue(longestWords.containsAll(Arrays.asList(new Word("longest"),
+                new Word("Longest"), new Word("LONGEST"))));
+    }
+
     @Test(expected=NullPointerException.class)
     public void getTestFindShortestWordWithNullSentence() {
         wordUtils.findShortestWords(null);
@@ -88,5 +97,14 @@ public class WordUtilsTest {
                 new Word("two"), new Word("six"), new Word("ten"))));
 
         assertTrue(((Word)(shortestWords.toArray()[0])).getLength() == 3);
+    }
+
+    @Test
+    public void testFindShortestWordsUniqueness() {
+        Set<Word> shortestWords = wordUtils.findShortestWords("The data example with multiple instances featuring the 'The' word.");
+
+        assertTrue(shortestWords.size() == 2);
+        assertTrue(shortestWords.containsAll(Arrays.asList(new Word("The"),
+                new Word("the"))));
     }
 }
