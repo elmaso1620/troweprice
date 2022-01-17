@@ -3,7 +3,8 @@
   "prBodyTemplate": "{{{header}}}{{{notes}}}{{{footer}}}",
   "prBodyNotes": [
     "sourceRepoSlug={{sourceRepoSlug}}\n",
-    "After first depName replacement={{replace '{{{depName}}}' '' sourceRepoSlug}}\n",
+    "depName={{depName}}\n",
+    "After first depName replacement={{replace '{{depName}}' '' sourceRepoSlug}}\n",
     "After second hyphen replacement={{replace '-' '%2f' sourceRepoSlug}}\n"
   ]
 }
