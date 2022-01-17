@@ -42,6 +42,11 @@
     <artifactId>aws-java-sdk-core</artifactId>
     <version>1.12.141</version>
 </dependency>
+             <dependency>
+    <groupId>software.amazon.awscdk</groupId>
+    <artifactId>aws-cdk-lib</artifactId>
+    <version>2.2.0</version>
+</dependency>
          <!-- Renovate testing -->    
     </dependencies>
 
