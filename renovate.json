@@ -3,6 +3,6 @@
   "prBodyTemplate": "{{{header}}}{{{notes}}}{{{footer}}}",
   "prBodyNotes": [
     "sourceRepoSlug={{sourceRepoSlug}}\n",
-    "{{{replace '-', '%2F', sourceRepoSlug}}}\n"
+    "New={{replace '-', '%2f' sourceRepoSlug}}\n"
   ]
 }
