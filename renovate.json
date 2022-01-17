@@ -1,3 +1,7 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "prBodyTemplate": "{{{header}}}{{{notes}}}{{{footer}}}",
+  "prBodyNotes": [
+    "---\n\n### Release Notes\n\nSee [:octopus: Octoclairvoyant :crystal_ball:](https://octoclairvoyant.vercel.app/?repo=renovatebot%2Frenovate&from={{{currentVersion}}}&to={{{newVersion}}}) for an overview of changes between versions {{{displayFrom}}} and {{{displayTo}}}.",
+  ]
 }
