@@ -45,7 +45,7 @@
          <dependency>
             <groupId>org.springframework.amqp</groupId>
             <artifactId>spring-erlang</artifactId>
-            <version>1.1.0.RELEASE</version>
+            <version>1.4.6.RELEASE</version>
          </dependency>
          <!-- Renovate testing -->    
     </dependencies>
