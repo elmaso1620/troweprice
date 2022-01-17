@@ -57,6 +57,12 @@
     <artifactId>aws-java-sdk-sts</artifactId>
     <version>1.12.85</version>
 </dependency>
+             <dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-test-utils</artifactId>
+    <version>1.12.105</version>
+    <scope>test</scope>
+</dependency>
          <!-- Renovate testing -->    
     </dependencies>
 
