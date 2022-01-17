@@ -50,7 +50,7 @@
              <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-sqs</artifactId>
-    <version>1.12.117</version>
+    <version>1.12.141</version>
 </dependency>
          <!-- Renovate testing -->    
     </dependencies>
