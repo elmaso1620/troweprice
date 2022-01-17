@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "prBodyTemplate": "{{{header}}}{{{notes}}}{{{footer}}}",
   "prBodyNotes": [
-    "Blah Custom PR"
+    "sourceRepoSlug={{sourceRepoSlug}}\n",
+    "{{{replace '-', '%2F', sourceRepoSlug}}}\n"
   ]
 }
