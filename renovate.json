@@ -4,7 +4,7 @@
   "prBodyNotes": [
     "sourceRepoSlug={{sourceRepoSlug}}\n",
     "depName={{depName}}\n",
-    "After first depName replacement={{replace '{{depName}}' '' sourceRepoSlug}}\n",
+    "After depName replacement={{replace '{{depName}}' '' sourceRepoSlug}}\n",
     "After second hyphen replacement={{replace '-' '%2f' sourceRepoSlug}}\n"
   ]
 }
