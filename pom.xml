@@ -40,7 +40,7 @@
          <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>1.1.1</version>
+            <version>5.3.15</version>
          </dependency>             
          <!-- Renovate testing -->    
     </dependencies>
