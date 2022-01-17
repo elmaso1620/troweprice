@@ -60,7 +60,7 @@
              <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-test-utils</artifactId>
-    <version>1.12.105</version>
+    <version>1.12.141</version>
     <scope>test</scope>
 </dependency>
          <!-- Renovate testing -->    
