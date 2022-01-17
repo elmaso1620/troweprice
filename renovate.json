@@ -3,6 +3,6 @@
   "prBodyTemplate": "{{{header}}}{{{notes}}}{{{footer}}}",
   "prBodyNotes": [
     "sourceRepoSlug={{sourceRepoSlug}}\n",
-    "After replace first hyphen replacement={{replace '^([^,]+)-' '%2f' sourceRepoSlug}}\n"
+    "After first hyphen replacement={{replace '^([^,]+)-' '%2f' sourceRepoSlug}}\n"
   ]
 }
