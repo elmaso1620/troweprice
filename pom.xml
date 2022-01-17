@@ -57,6 +57,11 @@
     <artifactId>jxl</artifactId>
     <version>2.6.12</version>
 </dependency>
+             <dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>1.0</version>
+</dependency>
          <!-- Renovate testing -->    
     </dependencies>
 
