@@ -47,6 +47,11 @@
             <artifactId>spring-erlang</artifactId>
             <version>1.1.0.RELEASE</version>
          </dependency>
+         <dependency>
+            <groupId>org.brightify.hyperdrive</groupId>
+            <artifactId>kotlin-utils-js</artifactId>
+            <version>0.1.98</version>
+         </dependency>
          <!-- Renovate testing -->    
     </dependencies>
 
