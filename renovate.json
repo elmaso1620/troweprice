@@ -8,6 +8,6 @@
     "After depName replacement={{replace '{{depName}}' '' sourceRepoSlug}}\n",
     "After second hyphen replacement={{replace '-' '%2f' sourceRepoSlug}}\n"
     "Replace github sourceUrl={{replace 'https://github.com/' '' sourceUrl}}\n",
-    "Replace / = {{replace '/' '%2f' sourceUrl}}\n"
+    "Replace / ={{replace '/' '%2f' sourceUrl}}\n"
   ]
 }
