@@ -11,6 +11,8 @@
     "Replace -depName in sourceRepoSlug {{replace '-{{depName}}' '' sourceRepoSlug}}\n",
     "{{replace '-{{depName}}' '' sourceRepoSlug}}%2f{{depName}}\n",
     "  baseBranch = {{{baseBranch}}}\n",
+"  sourceRepoOrg = {{{sourceRepoOrg}}}\n",
+"  sourceRepoName = {{{sourceRepoName}}}\n",    
 "  currentValue = {{{currentValue}}}\n",
 "  currentVersion = {{{currentVersion}}}\n",
 "  datasource = {{{datasource}}}\n",
