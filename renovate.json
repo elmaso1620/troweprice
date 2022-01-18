@@ -9,5 +9,6 @@
     "After second hyphen replacement={{replace '-' '%2f' sourceRepoSlug}}\n",
     "Replace github sourceUrl={{replace 'https://github.com/' '' sourceUrl}}\n",
     "Replace github in sourceUrl and encode URI={{{encodeURIComponent {{replace 'https://github.com/' '' sourceUrl}}}}}\n",
+    "Replace -depName in sourceRepoSlug {{replace '-{{depName}}' '' sourceRepoSlug}}\n",
   ]
 }
